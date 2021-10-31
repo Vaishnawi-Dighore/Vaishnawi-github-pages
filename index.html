@@ -1,51 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Table Element</title>
-        <style>
-            table{
-                width:100%;
-            }
-            td{
-                text-align:center;
-            }
-        </style>
 
-    </head>
-    <body>
-        <div>
-            <table border="2">
-               <tr>
-                  <th>ID</th>
-                  <th>NAME</th>
-                  <th>CITY</th>
-               </tr>
-               <tr>
-                  <td rowspan="3">1</td>
-                  <td>S1</td>
-                  <td>C1</td>
-                  
-               </tr>
-               <tr>
-                  
-                   <td>S2</td>
-                   <td>C2</td>
-                   
-               </tr>
-               <tr>
-                   
-                   <td>S3</td>
-                   <td>C3</td>
-                 
-               </tr>
-               <tr>
-                   <td>4</td>
-                   <td>S4</td>
-                   <td>C4</td>
-                  
-               </tr>
-            </table>
+<head>
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(231, 161, 161);
+            background-image:url("https://images.pexels.com/photos/4004374/pexels-photo-4004374.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+            
+        }
+
+        #main {
+            width: 100%;
+            height: 100%;
+           
+
+
+        }
+
+        #container {
+            position: absolute;
+            box-shadow: 0 0 10px black;
+            width: 80%;
+            height: 80%;
+            margin: 5% 10% 5% 10%;
+
+        }
+
+        #image {
+            width: 30%;
+            float: left;
+            height: 100%;
+            background-color: tomato;
+        }
+
+        #content {
+            width: 70%;
+            float: right;
+            height: 100%;
+            background-color:rgb(117, 18, 18);
+            color:white;
+            
+         
+        }
+        button{
+            background-color:rgb(58, 69, 125);
+            padding:10px 20px;
+            border:none;
+            box-shadow: 0 0 10px black ;
+            color: white;
+        }
+        h2,h4,h5{
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <a href="Anchor.html">Home</a>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.flipkart.com/"target="_blank" >Flipkart</a>
+        <a href="Portfolio.html"target="_blank" >Portfolio</a>
+        <div id="container">
+            <div id="image">
+                <img src="https://i.pinimg.com/originals/25/18/ff/2518fff04cb13b294c54ce03459d0369.jpg"
+                    width="100%"" height=" 100%" />
+            </div>
+            <div id="content">
+                <div style="text-align: left; margin:50px;">
+                    <h4> Hi there!!!!</h4>
+                    <h2> I am Vaishnawi</h2>
+                    <h5 style="font-style:italic">Front end Developer</h5>
+                    <p style="font-style: italic; font-size:18px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam quod reprehenderit harum
+                        iste optio corrupti similique porro quia omnis et deleniti quasi, voluptates nulla, atque sit
+                        fugiat non provident.</p>
+                    <p style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quaerat corrupti veniam rem
+                        perspiciatis error sit maxime! Est facere, quidem accusantium autem odio quod quo, molestias,
+                        debitis illum dolorum harum quibusdam dignissimos! Cumque ullam tempore voluptatum mollitia.
+                        Soluta, voluptates doloremque?</p>
+                    <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus qui voluptatem dolorem
+                        quibusdam, voluptatum maxime officia? Ratione fugit eius consequatur, officia, neque non ipsam
+                        quia commodi at id ex possimus. Nostrum, est. Ratione tempora perspiciatis voluptate quibusdam
+                        illum? Repellendus nesciunt vero hic facilis id voluptatibus numquam, enim asperiores ducimus?
+                        Provident debitis, fugit minima perspiciatis facilis ut nemo officiis, saepe hic unde quo
+                        pariatur accusantium rem eveniet dolores soluta omnis eos.</strong></p>
+                    <button>Explore More</button>
+                </div>
+            </div>
         </div>
 
-    </body>
+    </div>
+</body>
+
 </html>
